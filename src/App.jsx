@@ -28,7 +28,7 @@ const services = [
   { icon: "🛞", title: "Tires & Alignment", desc: "Precision wheel alignment, tire rotation, and balancing." },
   { icon: "❄️", title: "AC & Climate", desc: "Climate system diagnostics, refrigerant recharge, and full repair." },
   { icon: "⚡", title: "Electrical Repair", desc: "Battery, alternator, starter, and full electrical diagnostics." },
-  { icon: "🚗", title: "Free Pick & Drop", desc: "We collect your vehicle from your doorstep and return it after service — completely free of charge." },
+  // { icon: "🚗", title: "Free Pick & Drop", desc: "We collect your vehicle from your doorstep and return it after service — completely free of charge." },
   { icon: "🎨", title: "Body Work & Painting", desc: "Expert dent removal, panel beating, and precision painting using genuine Maruti Suzuki approved paints for a flawless finish." },
   { icon: "🔩", title: "Genuine Spare Parts", desc: "We use only 100% Genuine Maruti Suzuki Spare Parts for all repairs and replacements — ensuring perfect fit, factory-grade quality, and long-lasting performance for your vehicle." },
   { icon: "🛡️", title: "Insurance Work", desc: "Hassle-free insurance claim assistance for all major insurance companies. From survey to final delivery, we handle the entire process so you don't have to worry about a thing." },
@@ -380,7 +380,7 @@ function PartnerLogos() {
               <div style={{ color:"rgba(255,255,255,.4)", fontSize:11, marginTop:4, letterSpacing:".1em" }}>AUTHORISED SERVICE</div>
             </div>
             <div style={{ background:"rgba(184,150,12,.15)", border:"1px solid rgba(184,150,12,.3)", borderRadius:999, padding:"4px 14px", animation:"badgePop .6s .4s both" }}>
-              <span style={{ color:"#B8960C", fontSize:10, fontWeight:700, letterSpacing:".12em" }}>✦ CERTIFIED PARTNER</span>
+              <span style={{ color:"#B8960C", fontSize:10, fontWeight:700, letterSpacing:".12em" }}>✦ CHANNEL PARTNER</span>
             </div>
           </div>
 
@@ -403,7 +403,7 @@ function PartnerLogos() {
               <div style={{ color:"rgba(255,255,255,.4)", fontSize:11, marginTop:4, letterSpacing:".1em" }}>AUTHORISED SERVICE</div>
             </div>
             <div style={{ background:"rgba(184,150,12,.15)", border:"1px solid rgba(184,150,12,.3)", borderRadius:999, padding:"4px 14px", animation:"badgePop .6s .6s both" }}>
-              <span style={{ color:"#B8960C", fontSize:10, fontWeight:700, letterSpacing:".12em" }}>✦ CERTIFIED PARTNER</span>
+              <span style={{ color:"#B8960C", fontSize:10, fontWeight:700, letterSpacing:".12em" }}>✦ CHANNEL PARTNER</span>
             </div>
           </div>
 
@@ -503,7 +503,7 @@ export default function App() {
             </div>
             <div style={{ display: "flex", justifyContent: "center", gap: 8 }}>
               <span style={{ display:"inline-flex",alignItems:"center",gap:4,background:"#B8960C",padding:"2px 7px",borderRadius:4 }}>
-                <span style={{fontSize:9,fontWeight:700,color:"#fff",letterSpacing:".08em"}}>MARUTI AUTHORISED</span>
+                <span style={{fontSize:9,fontWeight:700,color:"#fff",letterSpacing:".08em"}}>MARUTI AUTHORISED SERVICE STATION</span>
               </span>
               <span style={{ display:"inline-flex",alignItems:"center",gap:4,background:"#fff",padding:"2px 7px",borderRadius:4 }}>
                 <span style={{fontSize:9,fontWeight:700,color:"#111",letterSpacing:".08em",marginLeft:4}}>NEXA AUTHORISED</span>
@@ -555,7 +555,7 @@ export default function App() {
               </div>
               <div style={{ display: "flex", gap: 6, marginTop: 5, flexWrap: "wrap", alignItems: "center" }}>
                 <span style={{ display:"inline-flex",alignItems:"center",gap:4,background:"#B8960C",padding:"2px 6px",borderRadius:4 }}>
-                  <span style={{fontSize:9,fontWeight:700,color:"#fff",letterSpacing:".08em"}}>MARUTI AUTHORISED</span>
+                  <span style={{fontSize:9,fontWeight:700,color:"#fff",letterSpacing:".08em"}}>MARUTI AUTHORISED SERVICE STATION</span>
                 </span>
                 <span style={{ display:"inline-flex",alignItems:"center",gap:4,background:"#1a3a6b",padding:"2px 6px",borderRadius:4 }}>
                   <span style={{fontSize:9,fontWeight:700,color:"#fff",letterSpacing:".08em",marginLeft:4}}>NEXA AUTHORISED</span>
@@ -760,7 +760,7 @@ export default function App() {
                     animation: "beamPulse 1.5s ease-in-out infinite"
                   }} />
                 </div>
-                {[["⚡", "Same-Day Service Available"], ["🚗", "Free Pick & Drop Service"], ["💬", "Transparent Pricing — Always"]].map(([icon, text], i) => (
+                {[["⚡", "Same-Day Service Available"], ["💬", "Transparent Pricing — Always"]].map(([icon, text], i) => (
                   <div key={i} style={{ display: "flex", alignItems: "center", gap: 14, background: "rgba(255,255,255,.06)", borderRadius: 12, padding: "13px 18px", marginTop: 12, border: "1px solid rgba(255,255,255,.07)" }}>
                     <span style={{ fontSize: 18 }}>{icon}</span>
                     <span style={{ color: "rgba(255,255,255,.82)", fontSize: 14, fontWeight: 500 }}>{text}</span>
@@ -785,7 +785,7 @@ export default function App() {
           <div className="bg-orb-2" style={{ position: "absolute", width: 80, height: 80, borderRadius: "50%", background: "rgba(10,31,68,.04)", top: "-20px", right: "20%", pointerEvents: "none" }} />
           <div className="ticker">
             {[...Array(5)].flatMap(() =>
-              ["ASE Certified", "Same-Day Service", "Free Pick & Drop", "Honest Pricing", "40+ Years Experience", "50,000+ Cars Served", "4.5★ Rating"]
+              ["ASE Certified", "Same-Day Service", "Honest Pricing", "40+ Years Experience", "50,000+ Cars Served", "4.5★ Rating"]
             ).map((item, i) => (
               <span key={i} style={{ padding: "0 32px", color: "rgba(255,255,255,.8)", fontSize: "clamp(10px, 1.2vw, 13px)", fontWeight: 600, letterSpacing: ".08em" }}>
                 <span style={{ color: "#B8960C", marginRight: 10 }}>✦</span>{item}
@@ -886,7 +886,7 @@ export default function App() {
                 {[
                   ["⚙️", "ASE Certified Technicians", "Nationally certified and continuously trained experts."],
                   ["⚡", "Same-Day Service", "Most repairs completed within the same business day."],
-                  ["🚗", "Free Pick & Drop", "We collect your car and return it after service — at no extra cost."],
+                  // ["🚗", "Free Pick & Drop", "We collect your car and return it after service — at no extra cost."],
                   ["🔑", "Loaner Vehicles", "Stay mobile while we service your car."],
                 ].map(([icon, title, desc], i) => (
                   <div key={i} style={{ display: "flex", gap: 16, alignItems: "flex-start", padding: "17px 0", borderBottom: i < 3 ? "1px solid rgba(255,255,255,.08)" : "none" }}>
@@ -1040,7 +1040,7 @@ export default function App() {
                 <span style={{ fontFamily: "'Playfair Display', serif", fontSize: 17, fontWeight: 900, color: "#fff", letterSpacing: ".07em" }}>PATEL <span style={{ color: "#fff" }}>TRACTOR</span> COMPANY</span>
                 <div style={{ display: "flex", gap: 6, marginTop: 5, flexWrap: "wrap", alignItems: "center" }}>
                   <span style={{ display:"inline-flex",alignItems:"center",gap:4,background:"#B8960C",padding:"2px 6px",borderRadius:4 }}>
-                    <span style={{fontSize:9,fontWeight:700,color:"#fff",letterSpacing:".08em"}}>MARUTI AUTHORISED</span>
+                    <span style={{fontSize:9,fontWeight:700,color:"#fff",letterSpacing:".08em"}}>MARUTI SUZUKI AUTHORISED</span>
                   </span>
                   <span style={{ display:"inline-flex",alignItems:"center",gap:4,background:"#1a3a6b",padding:"2px 6px",borderRadius:4 }}>
                     <span style={{fontSize:9,fontWeight:700,color:"#fff",letterSpacing:".08em",marginLeft:4}}>NEXA AUTHORISED</span>

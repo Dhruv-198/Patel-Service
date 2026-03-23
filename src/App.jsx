@@ -555,7 +555,7 @@ export default function App() {
               </div>
               <div style={{ display: "flex", gap: 6, marginTop: 5, flexWrap: "wrap", alignItems: "center" }}>
                 <span style={{ display:"inline-flex",alignItems:"center",gap:4,background:"#B8960C",padding:"2px 6px",borderRadius:4 }}>
-                  <span style={{fontSize:9,fontWeight:700,color:"#fff",letterSpacing:".08em"}}>MARUTI AUTHORISED SERVICE STATION</span>
+                  <span style={{fontSize:9,fontWeight:700,color:"#fff",letterSpacing:".08em"}}>MARUTI SUZUKI AUTHORISED</span>
                 </span>
                 <span style={{ display:"inline-flex",alignItems:"center",gap:4,background:"#1a3a6b",padding:"2px 6px",borderRadius:4 }}>
                   <span style={{fontSize:9,fontWeight:700,color:"#fff",letterSpacing:".08em",marginLeft:4}}>NEXA AUTHORISED</span>
